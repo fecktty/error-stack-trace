@@ -1,2 +1,4 @@
 # error-stack-trace
-A tool for view readable and friendly error message and stack from production logs
+
+## Intro
+This is a tool for viewing human readable and friendly error message and stack according to production logs.

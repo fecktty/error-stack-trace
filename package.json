@@ -1,0 +1,36 @@
+{
+  "name": "error-stack-trace",
+  "version": "0.0.1",
+  "description": "View stack source from production error using source-map tool",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fecktty/error-stack-trace.git"
+  },
+  "keywords": [
+    "production",
+    "nodejs",
+    "error",
+    "log"
+  ],
+  "engines": {
+    "node": ">=6.9.0"
+  },
+  "author": "wei.z.zhou",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "request": "^2.79.0",
+    "source-map": "^0.5.6"
+  },
+  "devDependencies": {
+    "@types/colors": "^1.1.1",
+    "@types/request": "0.0.39",
+    "@types/source-map": "^0.5.0",
+    "typescript": "^2.1.5"
+  }
+}
